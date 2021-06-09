@@ -29,7 +29,7 @@ public class Lab {
     private String projectKey;
 
     /**
-     * 在进行更新时,需要传入变更前的实验分组key
+     * 在进行更新时,需要传入变更前的实验分组key,以便于删除原来的实验
      */
     private String oldKey;
 
